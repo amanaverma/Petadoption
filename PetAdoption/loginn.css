@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h4{
+    margin-top: auto;
+    color: bisque;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/14087892/pexels-photo-14087892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+div {
+    width: 300px;
+    height: 380px;
+    padding: 25px;
+    margin: 100px;
+    margin-left: 620px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 38px, rgba(0, 0, 0, 0.22) 0px 5px 6px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+form {
+    font-size: 19.5px;
+    color: azure;
+}
+
+input[type=text],
+[type=email],
+[type=password],
+select,
+textarea {
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-color: whitesmoke;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2rem;
+    color: lightgray;
+}
+input::placeholder{
+    color: lightgrey;
+    opacity: .3;
+}
+input[type=submit] {
+    width: 60%;
+    height: 45px;
+    padding: 5px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    background-color: forestgreen;
+    font-size: larger;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+label {
+    color: whitesmoke;
+    display: table-row;
+    width: 5px;
+}
+
+input[type=Submit]:hover {
+    background-color: yellowgreen;
+}
+
+h4 a{
+    text-decoration: none;
+    color: navy;
+    font-size: large;
+}
+
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    color: #fff;
+    background: crimson;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}

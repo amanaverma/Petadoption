@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h4 {
+    color: bisque;
+    margin-top: auto;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/14087892/pexels-photo-14087892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+div {
+    width: 350px;
+    height: 430px;
+    border: transparent;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 630px;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 38px, rgba(0, 0, 0, 0.22) 0px 5px 6px;
+    border-radius: 10px;
+}
+
+form {
+    font-size: 19.5px;
+    color: azure;
+}
+
+input[type=text],
+[type=email],
+[type=password],
+select,
+textarea {
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-color: whitesmoke;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2rem;
+    color: lightgray;
+    opacity: .6;
+}
+
+input::placeholder{
+    color: lightgrey;
+}
+
+input[type=submit] {
+    width: 60%;
+    height: 45px;
+    padding: 5px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    background-color: forestgreen;
+    font-size: larger;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+label {
+    display: table-row;
+    width: 5px;
+    font-size: .5rem;
+}
+
+input[type=submit]:hover {
+    background-color: yellowgreen;
+}
+
+img {
+    width: 140px;
+    height: 90px;
+    margin-left: 97px;
+    margin-top: -10px;
+}
+h4 a{
+    text-decoration: none;
+    color: navy;
+    font-size: large;
+}
+
+section{
+    padding:3rem 2rem;
+ }
+ 
+ .message{
+    position: sticky;
+    top:0;
+    margin:0 auto;
+    max-width: 1200px;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    gap:1.5rem;
+    z-index: 10000;
+    justify-content: space-between;
+ }
+ 
+ .message span{
+    color:var(--black);
+    font-size: 2rem;
+ }
+ 
+ .message i{
+    font-size: 2.5rem;
+    color:var(--red);
+    cursor: pointer;
+ }
+ 
+ .message i:hover{
+    transform: rotate(90deg);
+ }
